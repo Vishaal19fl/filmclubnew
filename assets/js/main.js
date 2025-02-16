@@ -239,6 +239,11 @@ $('.popup-image').magnificPopup({
 		enabled: true
 	}
 });
+function playVideo() {
+    document.querySelector('.video-trigger-thumb').style.display = 'none'; // Hide thumbnail
+    document.querySelector('.icon-btn').style.display = 'none'; // Hide play button
+    document.getElementById('videoContainer').style.display = 'block'; // Show video
+}
 
 /* magnificPopup video view */
 $('.popup-video').magnificPopup({
