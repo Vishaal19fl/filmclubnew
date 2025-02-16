@@ -7288,7 +7288,7 @@ textarea.is-invalid {
   width: 180px;
 }
 @media (max-width: 768px) {
-  .about-tag {
+  .about-page-area .about-tag {
     
     
     display: none;
