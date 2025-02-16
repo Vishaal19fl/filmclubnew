@@ -3962,9 +3962,14 @@ textarea.is-invalid {
 .hero-style3 .hero-thumb3-1 {
   margin-top: 52px;
 }
+.hero-style3 .hero-thumb3-1 .thumb img {
+  height: 550px;
+  width: 90%;
+ 
+}
 @media (max-width: 767.98px) {
   .hero-style3 .hero-thumb3-1 .thumb img {
-    height: 250px;
+    height: 300px;
     object-fit: cover;
   }
 }
