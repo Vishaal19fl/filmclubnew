@@ -7064,6 +7064,11 @@ textarea.is-invalid {
 .video-thumb-box1 {
   position: relative;
 }
+@media (max-width: 768px) {  
+  .about1t {  
+      margin-top: 50px; /* Adjust the value as needed */  
+  }  
+}
 
 .video-thumb-box1 .video-trigger-thumb {
   transform: scale(0.8);
@@ -7072,6 +7077,7 @@ textarea.is-invalid {
   .video-thumb-box1 .video-trigger-thumb {
     transform: scale(0.9);
   }
+  
 }
 .video-thumb-box1 .icon-btn {
   position: absolute;
