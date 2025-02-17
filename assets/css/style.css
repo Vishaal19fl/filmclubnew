@@ -7295,6 +7295,9 @@ textarea.is-invalid {
     
   }
 }
+.work-card-title-item {
+  text-transform: uppercase;
+}
 
 .about-tag .about-tag-icon {
   position: absolute;
