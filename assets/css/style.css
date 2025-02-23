@@ -7277,6 +7277,9 @@ textarea.is-invalid {
     line-height: 60px;
   }
 }
+body.modal-open {
+  overflow: hidden;
+}
 
 /*=============================
     About area
