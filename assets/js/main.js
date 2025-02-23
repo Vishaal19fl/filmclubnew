@@ -491,7 +491,7 @@ if ($(".marquee_mode").length) {
         delayBeforeStart: 0,
         direction: 'left',
         duplicated: true,
-        pauseOnHover: true,
+        pauseOnHover: false,
         startVisible:true,
     });
 }
@@ -503,7 +503,7 @@ if ($(".marquee_mode2").length) {
         delayBeforeStart: 0,
         direction: 'left',
         duplicated: true,
-        pauseOnHover: true,
+        pauseOnHover: false,
         startVisible:true,
     });
 }
