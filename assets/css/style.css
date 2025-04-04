@@ -42,6 +42,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap");
 .text-theme {
   color: var(--tg-theme-primary) !important;
+  text-shadow: 
+    0 0 5px rgba(255, 0, 0, 0.5),
+    2px 2px 0 #500,
+    -2px -2px 0 #500,
+    2px -2px 0 #500,
+    -2px 2px 0 #500,
+    4px 4px 0 rgba(80, 0, 0, 0.8),
+    6px 6px 0 rgba(80, 0, 0, 0.5),
+    8px 8px 10px rgba(255, 0, 0, 0.3);
+
+  transform-style: preserve-3d;
+  transition: all 0.3s ease;
+  
+
+  text-transform: uppercase;
+}
+
+.text-theme:hover {
+  transform: perspective(500px) rotateX(0deg) translateZ(30px);
+  text-shadow: 
+    0 0 10px rgba(255, 0, 0, 0.8),
+    2px 2px 0 #700,
+    -2px -2px 0 #700,
+    2px -2px 0 #700,
+    -2px 2px 0 #700,
+    6px 6px 0 rgba(100, 0, 0, 0.8),
+    8px 8px 0 rgba(100, 0, 0, 0.5),
+    10px 10px 15px rgba(255, 0, 0, 0.4);
+}
+
+.text-theme:hover {
+  transform: perspective(500px) rotateX(0deg) translateZ(20px);
 }
 
 :root {
@@ -3632,6 +3664,7 @@ textarea.is-invalid {
   color: var(--tg-color-white-default);
   font-weight: 400;
   margin-bottom: 54px;
+  
 }
 .hero-style1 .hero-title .title2,
 .hero-style1 .hero-title .title1 {
@@ -3901,6 +3934,27 @@ textarea.is-invalid {
   font-weight: 400;
   margin-bottom: 5px;
   text-transform: uppercase;
+  color: var(--tg-theme-primary);
+  text-shadow: 
+    1px 1px 0 #666666,
+    2px 2px 0 #888888,
+    3px 3px 0 #999999,
+    4px 4px 0 #777777,
+    5px 5px 0 #555555,
+    6px 6px 1px rgba(0,0,0,.1),
+    7px 7px 5px rgba(0,0,0,.1),
+    8px 8px 3px rgba(0,0,0,.3),
+    9px 9px 5px rgba(0,0,0,.2),
+    10px 10px 10px rgba(0,0,0,.25),
+    15px 15px 10px rgba(0,0,0,.2),
+    20px 20px 20px rgba(0,0,0,.15);
+ 
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.hero-style3 .hero-title:hover {
+  transform: perspective(1000px) rotateX(0deg) translateZ(50px);
 }
 @media (max-width: 1800px) {
   .hero-style3 .hero-title {

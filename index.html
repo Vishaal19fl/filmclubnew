@@ -213,7 +213,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="hero-thumb3-1 wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                <div class="text-center mb-4 mt-4">
+                    <a href="" class="btn">
+                        View Cinewars results <i class="fas fa-arrow-right"></i>
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                    </a>
+                </div>
+                <div class="hero-thumb3-1 wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.3s"></div>
                     <div class="thumb gsap-parallax">
                         <video class="hero-video" autoplay muted loop playsinline>
                             <source src="assets/img/cinema3.mp4" type="video/mp4">
@@ -625,8 +632,7 @@
                         </div>
                         <div class="video-thumb-box1">
                             <img class="video-trigger-thumb" src="assets/img/fcthumbnail.jpg" alt="img">
-                            <a href="https://youtu.be/9zUpIBV8Yqw?si=XsDbdRl4i0Rtwgom" class="icon-btn popup-video"><i class="fas fa-play"></i>
-                            </a> 
+                            <a href="https://www.youtube.com/watch?v=9zUpIBV8Yqw" class="icon-btn popup-video"><i class="fas fa-play"></i></a> 
                             <div class="video-text1-1">
                                 PLAY
                             </div>    
@@ -643,6 +649,18 @@
                 </div>
             </div>
         </div>
+        <script>
+            $(document).ready(function() {
+                // Initialize Magnific Popup for video
+                $('.popup-video').magnificPopup({
+                    type: 'iframe',
+                    mainClass: 'mfp-fade',
+                    removalDelay: 160,
+                    preloader: false,
+                    fixedContentPos: false
+                });
+            });
+        </script>
     </section>
     <!--======== / Video Section ========-->
 
@@ -814,6 +832,170 @@
     
     <!--======== / Team Area 3 ========-->
 
+
+
+    <section class="project-area-2 pt-120 pb-100">
+        <div class="container">
+            <div class="section__title text-center mb-60 wow img-custom-anim-top">
+                <div class="sub-title text-theme">Explore our Events</div>
+                <h2 class="title text-white">EVENTS BY FC</h2>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="project-slider2 overflow-hidden">
+                <div class="tg-swiper__slider swiper-container" id="projectSlider2" data-swiper-options='{
+                    "loop": true,
+                    "autoplay": { "delay": 5000 },
+                    "speed": 1000,
+                    "breakpoints": {
+                        "0": {
+                            "spaceBetween": 30,
+                            "slidesPerView": 1
+                        },
+                        "375": {
+                            "spaceBetween": 30,
+                            "slidesPerView": 1
+                        },
+                        "575": {
+                            "spaceBetween": 30,
+                            "slidesPerView": 1
+                        },
+                        "768": {
+                            "spaceBetween": 30,
+                            "slidesPerView": 2
+                        },
+                        "992": {
+                            "spaceBetween": 30,
+                            "slidesPerView": 4
+                        },
+                        "1200": {
+                            "spaceBetween": 30,
+                            "slidesPerView": 4
+                        }
+                    }}'>
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="project-card2">
+                                <div class="project-thumb">
+                                    <a href="project-details.html" class="thumb gsap-parallax">
+                                        <img src="assets/img/project/project2-1.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="project-card-details">
+                                    <span class="project-card-subtitle">Action - Adventure</span>
+                                    <h4 class="project-card-title"><a href="project-details.html">Assassin's Creed 3</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-card2">
+                                <div class="project-thumb">
+                                    <a href="project-details.html" class="thumb gsap-parallax">
+                                        <img src="assets/img/project/project2-2.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="project-card-details">
+                                    <span class="project-card-subtitle">Strategy</span>
+                                    <h4 class="project-card-title"><a href="project-details.html">XCOM 2</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-card2">
+                                <div class="project-thumb">
+                                    <a href="project-details.html" class="thumb gsap-parallax">
+                                        <img src="assets/img/project/project2-3.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="project-card-details">
+                                    <span class="project-card-subtitle">Sports - Racing</span>
+                                    <h4 class="project-card-title"><a href="project-details.html">NFS MW 2012</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-card2">
+                                <div class="project-thumb">
+                                    <a href="project-details.html" class="thumb gsap-parallax">
+                                        <img src="assets/img/project/project2-4.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="project-card-details">
+                                    <span class="project-card-subtitle">Action - Adventure</span>
+                                    <h4 class="project-card-title"><a href="project-details.html">GTA V</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-card2">
+                                <div class="project-thumb">
+                                    <a href="project-details.html" class="thumb gsap-parallax">
+                                        <img src="assets/img/project/project2-1.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="project-card-details">
+                                    <span class="project-card-subtitle">Action - Adventure</span>
+                                    <h4 class="project-card-title"><a href="project-details.html">Assassin's Creed 3</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-card2">
+                                <div class="project-thumb">
+                                    <a href="project-details.html" class="thumb gsap-parallax">
+                                        <img src="assets/img/project/project2-2.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="project-card-details">
+                                    <span class="project-card-subtitle">Strategy</span>
+                                    <h4 class="project-card-title"><a href="project-details.html">XCOM 2</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-card2">
+                                <div class="project-thumb">
+                                    <a href="project-details.html" class="thumb gsap-parallax">
+                                        <img src="assets/img/project/project2-3.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="project-card-details">
+                                    <span class="project-card-subtitle">Sports - Racing</span>
+                                    <h4 class="project-card-title"><a href="project-details.html">NFS MW 2012</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-card2">
+                                <div class="project-thumb">
+                                    <a href="project-details.html" class="thumb gsap-parallax">
+                                        <img src="assets/img/project/project2-4.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="project-card-details">
+                                    <span class="project-card-subtitle">Action - Adventure</span>
+                                    <h4 class="project-card-title"><a href="project-details.html">GTA V</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
     <!--==============================
     Work Area
     ==============================-->
@@ -906,10 +1088,10 @@
 <!--==============================
     Blog Area
     ==============================-->
-    <section class="blog-area-1 pt-110 pb-120 black2-bg">
+    <!-- <section class="blog-area-1 pt-110 pb-120 black2-bg">
         <div class="container">
             <div class="section__title mb-50 text-center">
-                <h2 class="title wow img-custom-anim-top text-white">EVENT <span class="text-theme">DETAILS</span></h2>
+                <h2 class="title wow img-custom-anim-top text-white">EVENTS BY<span class="text-theme"> FC</span></h2>
             </div>
             <div class="row gy-40 justify-content-center">
                 <div class="col-lg-4 col-md-6">
@@ -973,7 +1155,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--======== / Blog Section ========-->
 
 
@@ -989,11 +1171,11 @@
     <!--==============================
     Testimonial Area 2
     ==============================-->
-    <section class="testimonial-area-2 black2-bg pt-30 pb-50 position-relative overflow-hidden">
+    <section class="testimonial-area-2 black2-bg pt-130 pb-50 position-relative overflow-hidden">
         <style>
             @media (max-width: 768px) {
                 .testimonial-area-2 {
-                    padding-top: 0px; /* Reduced padding for mobile */
+                    padding-top: 60px; /* Reduced padding for mobile */
                 }
             }
         </style>
