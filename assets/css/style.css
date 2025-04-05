@@ -3940,14 +3940,14 @@ textarea.is-invalid {
     2px 2px 0 #888888,
     3px 3px 0 #999999,
     4px 4px 0 #777777,
-    5px 5px 0 #555555,
+    5px 5px 0 #878585,
     6px 6px 1px rgba(0,0,0,.1),
     7px 7px 5px rgba(0,0,0,.1),
     8px 8px 3px rgba(0,0,0,.3),
     9px 9px 5px rgba(0,0,0,.2),
     10px 10px 10px rgba(0,0,0,.25),
     15px 15px 10px rgba(0,0,0,.2),
-    20px 20px 20px rgba(0,0,0,.15);
+    20px 20px 20px rgba(0, 0, 0, 0.11);
  
   transform-style: preserve-3d;
   transition: transform 0.3s ease;
@@ -5538,6 +5538,7 @@ textarea.is-invalid {
 }
 .project-card2 .project-thumb img {
   width: 100%;
+  max-height: 450px;
 }
 .project-card2 .project-card-details {
   margin-top: 32px;
