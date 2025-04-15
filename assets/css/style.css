@@ -5519,6 +5519,9 @@ textarea.is-invalid {
 .project-slider2 .slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: var(--tg-theme-primary);
 }
+.project-card2 .project-thumb{
+  max-height: 420px;
+}
 @media (max-width: 767.98px) {
   .project-slider2 .slider-pagination {
     margin-top: 32px;
